@@ -11,7 +11,7 @@ import {NavbarComponent} from '../../shared/navbar/navbar.component';
         <span aria-hidden="true">&times;</span>
         </button>
     </div>
-    <div class="modal-body" style="text-align: center;">The Meltmonger secrets that will appear here will change. Nothing will ever be the same. If you so choose, you may be informed of such changes.<br>This decision is irreversible.
+    <div class="modal-body" style="text-align: center;">The Meltmonger secrets that will appear here will change you. Nothing will ever be the same. If you so choose, you may be informed of such changes.<br>This decision is irreversible.
     </div>
     <div class="modal-footer">
         <div class="left-side">
