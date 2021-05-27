@@ -1,0 +1,62 @@
+<div class="wrapper">
+    <div class="page-header section-dark" style="background-image: url('assets/img/antoine-barres.jpg')">
+        <div class="filter"></div>
+        <div class="content-center">
+            <div class="container">
+                <div class="title-brand">
+                    <div class="angular-logo">
+                        <img src="assets/img/meltmongers-logo.png" alt="">
+                    </div>
+                    <h1 class="presentation-title">Meltmongers</h1>
+                    <div class="fog-low">
+                        <img src="assets/img/fog-low.png" alt="">
+                    </div>
+                    <div class="fog-low right">
+                        <img src="assets/img/fog-low.png" alt="">
+                    </div>
+                </div>
+
+                <h2 class="presentation-subtitle text-center">A Window Into Scottish Depravity</h2>
+            </div>
+        </div>
+        <div class="moving-clouds" style="background-image: url('assets/img/clouds.png'); "></div>
+    </div>
+    <div class="main">
+        <div #faq id="faq" class="section section-dark" style="height: 100vh;">
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-md-8 ml-auto mr-auto text-center">
+                        <h2 class="title">What is this?</h2>
+                        <p class="description">Meltmongers is a small restaurant in Edinburgh. Few people know of it, and fewer still know its secrets. This space aims to, over time, unravel the mystery.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-8 ml-auto mr-auto text-center">
+                        <h2 class="title">That seems dumb.</h2>
+                        <p class="description">Yes.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 download-area ml-auto mr-auto">
+                        <a (click)="togglePosts()" class="btn btn-outline-default btn-round">Show me.</a>
+                    </div>
+                </div>
+                <div *ngIf="displayPosts" @myInsertRemoveTrigger class="row justify-content-md-center sharing-area text-center">
+                    <div class="text-center col-md-12 col-lg-8" style="color: #FFFFFF;">
+                        <h3>May 27th, 2021: First Contact</h3>
+                    </div>
+                    <div class="text-center col-md-12 col-lg-8" style="color: #FFFFFF; margin-top: 1em;">
+                        <p>Today was the first of many brief encounters I expect to have with Meltmongers. I walked by on accident.. or at least, I think it was an accident. I cannot rule out the possibility of some unseen hand guiding my path. Whether that hand is benevolent, malicious or whether it exists at all remains to be seen.</p>
+                        <br>
+                        <p>The door was closed. Perhaps it was simply closed for the day. Perhaps it was a symbol of the much deeper, darker door that is shut to me. I don't intend for it to remain shut much longer.</p>
+                    </div>
+                    <div class="col-xs-3 col-sm-8 col-md-4">
+                        <img src="./assets/img/27052021.png" class="img-rounded img-responsive" alt="Rounded Image" style="margin-top: 1em">
+                        <div class="img-details">
+                            <p>The horror</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>      
+</div>
